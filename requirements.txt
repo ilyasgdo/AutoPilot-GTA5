@@ -1,0 +1,26 @@
+# Deep Learning
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Reinforcement Learning
+gym==0.26.2
+stable-baselines3[extra]==2.2.1
+pytorch-lightning>=2.1.0
+
+# Vision par ordinateur
+opencv-python
+ultralytics  # YOLOv8
+albumentations
+
+# Outils
+numpy
+matplotlib
+pandas
+pyyaml
+tqdm
+pyautogui  # pour injection d'action clavier/souris
+
+# Pour futures extensions
+moviepy         # pour extraire les vidéos GTA
+scikit-image
